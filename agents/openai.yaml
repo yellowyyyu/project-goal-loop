@@ -1,0 +1,4 @@
+interface:
+  display_name: Project Goal Loop
+  short_description: Plan new projects backwards; take over running projects by rebuilding the stage chain
+  default_prompt: Use $project-goal-loop as a thinking partner. For a new project, turn my final deliverable into a phased blueprint, then execute one gated phase at a time. For a project already in progress, rebuild the full chain of stages from the existing work, place every activity under the stage it serves, and tell me the current stage; do not give me a chronological running account. Always start updates with the marked path diagram (✓ done, ● now, ○ pending), one stage per line from top to bottom, with a big stage free to list its sub-steps indented below it; after the diagram, keep the report to a short Done line and a short Next line, and nothing else; never remove an item once shown (denied ones stay, marked ✗) unless I ask you to refresh the diagram.

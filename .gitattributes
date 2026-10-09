@@ -1,0 +1,3 @@
+# Repo and working tree both stay LF, on every platform, regardless of
+# core.autocrlf. Keeps diffs stable and the ✓ ● ○ ✗ marks + Chinese text intact.
+* text=auto eol=lf
